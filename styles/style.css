@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.dws-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dws-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.dws-form {
+  background: rgba(115, 0, 255, 0.469);
+  padding: 10px;
+  width: 330px;
+}
+.dws-label-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.label-header {
+  margin-bottom: -1px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #fff;
+}
+.label-active {
+  border-radius: 1px 1px 0px 0px;
+  background-color: #fff;
+  color: #d6c77a;
+}
+.dws-form a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: #d6c77a;
+}
+.dws-form a:hover {
+  color: #e0c226;
+}
+.dws-form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tab-form {
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) */
+}
+.tab-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background: #fff;
+  border-radius: 0 1px 1px;
+}
+input {
+  /* padding: 12px 14px; */
+  margin-top: 10px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #e9eaea;
+  outline: none;
+}
+.button {
+  margin: 10px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-color: #1c1b1b;
+}
+.social {
+  display: flex;
+  /* margin-bottom: 50px; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 32px;
+}
+.social--item {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.help-btn {
+  margin-bottom: 10px;
+}
+::-webkit-input-placeholder {
+  color: #c4c9c9;
+}
+
+.reg-form {
+  display: flex;
+  justify-content: center;
+}
+.reg-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background: #fff;
+  border-radius: 1px 1px 1px 1px;
+}
+.recover {
+  display: flex;
+  margin-top: -15px;
+  align-items: center;
+  justify-content: center;
+}
+.recover input {
+  width: 10px !important;
+}
+.recover label {
+  margin-top: 6px;
+  font-size: 10px;
+}
+.reg-form .button {
+  margin-top: 10px;
+}
+.del {
+  display: none;
+}
